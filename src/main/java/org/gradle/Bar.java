@@ -1,14 +1,12 @@
 package org.gradle;
 
+import org.springframework.stereotype.Component;
 
+@Component //Allow the component to be scanned.
 public class Bar {
-    private final String name;
-
-    public Bar(String name) {
-        this.name = name;
-    }
-
+	private int counter = 0;
     public String getName() {
-        return name;
+    	counter++;
+        return "Bar" + counter;
     }
 }
