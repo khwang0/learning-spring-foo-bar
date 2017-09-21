@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public interface EmployeeRepository extends CrudRepository<Employee, Long>  {
-
+	//You can leave this blank or insert any function you want.
+	//These function has a predefined format - see
+	//https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation
+	
+	public int countByName(String name); 
 }
 

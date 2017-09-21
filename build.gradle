@@ -14,15 +14,6 @@ buildscript {
     }
 }
 
-//buildscript {
-//    repositories {
-//    }
-//    dependencies {
-//         classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.4.2.RELEASE'
-//        classpath 'org.springframework.build.gradle:propdeps-plugin:0.0.7'
-//    }
-//}
-
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'

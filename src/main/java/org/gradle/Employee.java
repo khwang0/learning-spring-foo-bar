@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity // This tells Hibernate to make a table out of this class
+@Entity // This tells Java to make a table out of this class
 public class Employee {
 
 	@Id
@@ -15,6 +15,7 @@ public class Employee {
 	private float salary;
 
 	public Employee() {}
+
 	
 	public void setId(int id) {
 		this.id = id;
@@ -26,12 +27,6 @@ public class Employee {
 		this.salary = salary;
 	}
 	// getters and setters
-	public Employee(int id, String name, float salary) {
-		this.id = id;
-		this.name = name;
-		this.salary = salary;
-	}
-
 	public int getId() {
 		return id;
 	}
