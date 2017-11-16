@@ -1,4 +1,4 @@
-## References code of COMP3111 tutorial - spring.pdf / lecture Java Spring
+## References code of COMP3111 tutorial - spring.pdf / lecture Java Spring ![](https://travis-ci.org/khwang0/learning-spring-foo-bar.svg?branch=database)
 
 Import that in STS and build with gradlew. Type `run` in gradle task to run it.
 
